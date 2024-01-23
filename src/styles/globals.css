@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .all-\[unset\] {
+    all: unset;
+  }
+}
+
+:root {
+  --drop-shadow: 8px 8px 40px 0px rgba(135, 161, 186, 0.24),
+    4px 4px 4px 0px rgba(86, 151, 211, 0.13);
+}
